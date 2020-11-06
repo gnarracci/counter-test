@@ -1,12 +1,17 @@
-import "./App.css";
-import { card } from "semantic-ui-react";
+import React from "react";
+import CounterOne from "./components/counterOne";
+import CounterTree from "./components/counterTree";
+import CounterTwo from "./components/counterTwo";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <h1>Counter</h1>
+    <div>
+      <h1>Counter Test</h1>
+      <CounterOne />
+      <CounterTwo />
+      <CounterTree />
     </div>
   );
-}
+};
 
 export default App;
