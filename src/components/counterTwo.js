@@ -26,9 +26,6 @@ class CounterTwo extends Component {
           </Card.Content>
           <Card.Content extra>
             <div className="ui two buttons">
-              <Button onClick={this.substract.bind(this)}>
-                <Icon disabled name="minus" />
-              </Button>
               <Button onClick={this.add.bind(this)}>
                 <Icon disabled name="plus" />
               </Button>

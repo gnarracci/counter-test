@@ -29,9 +29,6 @@ class CounterTree extends Component {
               <Button onClick={this.substract.bind(this)}>
                 <Icon disabled name="minus" />
               </Button>
-              <Button onClick={this.add.bind(this)}>
-                <Icon disabled name="plus" />
-              </Button>
             </div>
           </Card.Content>
         </Card>
